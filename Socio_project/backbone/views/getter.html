@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- bootstrap css link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+  <!--  css file link -->
+  <link rel="stylesheet" href="../css/getter.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+  <!-- font-awesome  link -->
+  <script src="https://kit.fontawesome.com/9774326db4.js" crossorigin="anonymous"></script>
+
+  <!--bootstrap .js files------------------------------------------------------------ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+
+  <!-- some more .js files---------------- -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  
+</head>
+</head>
+<body>
+  <section id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg  navbar-dark ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#n1" aria-controls="n1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="">Socio </a>
+        <div class="collapse navbar-collapse" id="n1">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer"> Contact </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing"> Donate Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta"> Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class=" col-lg-6 col-md-12 col-sm-12">
+          <h1 class="n3">Report the unreported!!!</h1>
+          <button type="button" class="btn btn-dark btn-lg n4"> Fill out the form now</button>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <img class="n2" src="../images/getter_main_nobg_mod.png"iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--joker-->
+  <section id="title " >
+    <div class="container-fluid">
+
+  <!--form filling area-->
+<h1>Fill me out!!!</h1>
+    <form action="" id="getterForm">
+      <div class="alert">Your Request is submitted successfully!</div>
+      <div class="form-group">
+        <label for="name_g">Your Name/Organisation Name:</label>
+        <input type="text" id = "name_g" class="form-control" id="u" placeholder="Enter the name of the contributor/Organsation" required>
+      </div>
+<br>
+      <div class="form-group">
+        <label for="email_g">Your Email address:</label>
+        <input type="email" id="email_g" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <br>
+
+      <div class="form-group">
+        <label for="phone_g">Your Phone no:</label>
+        <input type="number" id = "phone_g" class="form-control"   placeholder="Enter phone no" required>
+        <small id="number" class="form-text text-muted">We'll never share your phone with anyone else.</small>
+      </div>
+<br>
+      <label class="form-group" for="age_g">Select the average age group of the kids:</label>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="age_g">Age Groups</label>
+        </div>
+        <select class="custom-select" id="age_g" required>
+          <option selected>Choose...</option>
+          <option value="5-8">5-8 years</option>
+          <option value="8-12">8-12 years</option>
+          <option value="12-16">12-16 years</option>
+          <option value="16-18">16-18 years</option>
+        </select>
+      </div>
+
+      <label class="form-group" for="subjects_g">Select the preferred subjects:</label>
+      <!--joker again-->
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="science_g" id="subjects_sci_g">
+        <label class="form-check-label" for="flexCheckDefault">
+          Science
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="maths_g" id="subjects_math_g" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+          Mathematics
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="english_g" id="subjects_eng_g" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+          Language(English)
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="hindi_g" id="subjects_hind_g" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+          Language(Hindi)
+        </label>
+      </div>
+      <!--joker ends-->
+     <br>
+
+      <label class="form-label" for="pic_g">Upload a pic of the patch location...</label>
+<input type="file" class="form-control" id="pic_g" required/>
+<br>
+
+<button type="button" class="btn btn-success" id="loc_detect_g" >Detect Current Location </button>
+<br>
+<br>
+<button type="submit" class="btn btn-primary btn-lg btn-block" >Submit</button>
+      
+    </form>
+  
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class=" row">
+      <div class=" col-lg-4 n7">
+        <i class="fa-solid fa-circle-check fa-4x n6"></i>
+       
+      </div>
+      <div class=" col-lg-4 n7">
+        <i class="fa-solid fa-bullseye fa-4x n6"></i>
+       
+        
+      </div>
+      <div class="col-lg-4 n7">
+        <i class="fa-solid fa-heart fa-4x n6"></i>
+        
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+
+    <div id="n10" class="carousel slide" data-ride="carousal">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h5 class="testimonial-text">"I recently had the opportunity to learn more about Socio and their work to improve education for poor children. The website is a wealth of information, covering everything from their programs and partnerships to their funding and impact. I was especially impressed by the focus on community involvement and the importance of sustainability in their approach. Socio is making a real difference in the lives of these children and I am proud to support their efforts.</h5>
+          
+          <em>Rajeev Singh, New Delhi</em>
+        </div>
+
+        <div class="carousel-item">
+          <h5 class="testimonial-text">As someone who cares deeply about education and its power to transform lives, I was drawn to [NGO Name]. Their mission to provide quality education to underprivileged children is both inspiring and important. The website effectively communicates their goals and the progress they have made so far. It was heartening to see the stories of children who have been given a brighter future thanks to the organization's efforts. I look forward to following [NGO Name]'s journey and being a part of their positive impact</h5>
+          
+          <em>Aryaman Rai,Kurnool</em>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#n10" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#n10" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+
+  </section>
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="n9" src="../images/techcrunch.png" alt="tc-logo">
+    <img class="n9" src="../images/tnw.png" alt="tnw-logo">
+    <img class="n9" src="../images/bizinsider.png" alt="biz-insider-logo">
+    <img class="n9" src="../images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>Your Contribution can help transform the life of millions!!!</h2>
+    <p>Support the cause through financial help!</p>
+
+    <div class="row">
+      <div class=" n15 col-lg-4 col-md-6 ">
+        <div class="card">
+          <div class="card-header">
+            <h3>One time donation</h3>
+          </div>
+          <div class="card-body">
+            <h3>Impacts 1 child</h3>
+            <img src="../images/g1_child.png" width="200px" height="110px" alt="">
+            <br>
+            <button type="button" id="spoc" class="btn btn-lg btn-block btn-dark n13">Donate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class=" n15 col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Monthly donation</h3>
+          </div>
+          <div class="card-body">
+            <h3>Impacts 2-5 children</h3>
+            <img src="../images/g2_child.png" width="200px" height="110px"  alt="">
+            <br>
+            <button type="button" id="spoc" class="btn btn-lg btn-block btn-dark n13 ">Donate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class=" n15 col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Yearly Donation</h3>
+          </div>
+          <div class="card-body">
+            <h3>Impacts one whole cluster</h3>
+            <img src="../images/g3_child.jpg" width="200px" height="120px"  alt="">
+            <br>
+            <button type="button" id="spoc" class="btn btn-lg btn-block btn-dark n13">Donate</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta" class="container-fluid">
+
+    <h3 class ="ctat" >Download our app</h3>
+    <button type="button" class="btn btn-dark btn-lg n4"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-light btn-lg n4"><i class="fa-brands fa-google-play"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+<div class="foot_logo">
+  <i class="fa-brands fa-twitter n101"></i>
+  <i class="fa-brands fa-facebook-f n101"></i>
+  <i class="fa-brands fa-instagram n101"></i>
+  <i class="fa-solid fa-envelope n101"></i>
+</div>
+    <p>© Copyright 2023 Socio</p>
+
+  </footer>
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"> type="module"</script>
+  <script src="../src/getter.js" type="module"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
